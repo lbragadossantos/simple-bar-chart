@@ -40,8 +40,8 @@ function onload(err, data) {
     .attr('y', function (d) {
       return y(d.frequency)
     })
-    .attr('width', x.bandwidth())
-    .attr('height', function(d) {
-      return height - y(d)
-    })
+//     .attr('width', x.bandwidth())
+//     .attr('height', function(d) {
+//       return height - y(d)
+//     })
 }
