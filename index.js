@@ -42,6 +42,6 @@ function onload(err, data) {
     })
     .attr('width', x.bandwidth())
     .attr('height', function(d) {
-      return height - barY(d)
+      return height - y(d)
     })
 }
