@@ -1,4 +1,4 @@
-* Based on https://bl.ocks.org/mbostock/3885304 by Mike Bostock. */
+/* Based on https://bl.ocks.org/mbostock/3885304 by Mike Bostock. */
 
 /* Select the element. */
 var svg = d3.select('svg');
